@@ -2,22 +2,22 @@ var trabajos = [{
     figure: "media/trabajo-01-desfile.jpg",
     alt: "Descripción de la imagen",
     title: "Título de primer trabajo",
-    about: "Texto simulado de descripción de primer trabajo"
+    about: "La serie de cómics mensuales para el diario Visión trata sobre situaciones cotidianas de los estudiantes relacionadas a eventos que ocurren de acuerdo al mes de su respectiva publicación."
 }, {
     figure: "media/trabajo-02-app.jpg",
     alt: "Descripción de la imagen",
     title: "Título de segundo trabajo",
-    about: "Texto simulado de descripción de segundo trabajo"
+    about: "Ilustración para concurso de “Talk Talk Korea 2018”. El tema de la competencia era la paz en Corea, donde se usó como referencia eventos deportivos donde Corea del Norte y del Sur participaron juntos."
 }, {
     figure: "media/trabajo-03-homy.jpg",
     alt: "Descripción de la imagen",
     title: "Título de tercer trabajo",
-    about: "Texto simulado de descripción de tercer trabajo"
+    about: "Ilustración de Camile, un personaje femenino de un cómic personal que se encuentra en proceso de redacción del guión para luego ilustrar las escenas de la historia."
 }, {
     figure: "media/trabajo-04-editorial.jpg",
     alt: "Descripción de la imagen",
     title: "Título de cuarto trabajo",
-    about: "Texto simulado de descripción de cuarto trabajo"
+    about: "Fondo de los miembros de la banda surcoreana “Day6” ilustrada para un mapa del juego online “osu!”. La canción mapeada fue “Man in a movie” por el jugador iYiyo."
 }, {
     figure: "media/trabajo-05-artesania.jpg",
     alt: "Descripción de la imagen",
