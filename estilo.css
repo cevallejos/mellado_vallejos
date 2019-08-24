@@ -107,9 +107,9 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 */
 
 #equipo {
-    /*display: flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;*/
+    flex-wrap: wrap;
     color:#fff /* lo mismo que #FFFFFF, simplificando pares iguales*/;
     color:rgba(255,255,255,1);
     font-size: 0.7rem;
@@ -123,9 +123,9 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     color:rgba(255,255,255,.9);
 }
 
-/*.integrante {
+.integrante {
     flex-basis: 50%;
-}*/
+}
 
 .integrante:hover {
     cursor:crosshair;
@@ -151,7 +151,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 @media screen and (orientation: landscape){
     .integrante blockquote{
-        padding: 6rem 2rem 2rem 2rem;
+        padding: 4rem 2rem 2rem 2rem;
         max-width:50%;
     }
 }
@@ -162,7 +162,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     font-weight: 700;
     font-size:.8rem;
     letter-spacing : 0.1rem;
-    padding-top:0.25rem;
+    /*padding-top:0.25rem;*/
     color:rgba(255,255,255,.75);
 }
 
@@ -231,15 +231,13 @@ AHORA VAMOS POR PORTAFOLIO
     color:#333;
     background:#eee;
     /*box-shadow:0 0 5px rgba(0,0,0,.5);*/
+  }
+
+.item.1 {
+  background:#212121;
+
 }
 
-.item:nth-of-type(1, 2, 3, 4){
-    background-color:#212121;
-    /*background-image:url('media/integrante-2b.png');
-    background-position: bottom right;
-    background-size:auto 90%;
-    background-repeat: no-repeat;*/
-}
 
 @media screen and (max-width: 768px){
     .item{
@@ -282,8 +280,18 @@ AHORA VAMOS POR PORTAFOLIO
      font-weight: 700;
      font-size:1em;
      letter-spacing:0.025em;
-     margin:5% 5% 3% 5%;
+     margin:5% 5% 0% 5%;
 }
+
+.item h5{
+    font-family:'Roboto Slab', serif;
+    color: #4a148c;
+    font-weight: 700;
+    font-size:0.7em;
+    letter-spacing:0.025em;
+    margin:0% 5% 3% 6%;
+}
+
  .item p{
      font-family: 'Roboto Mono', monospace;
      color: #01579b;
