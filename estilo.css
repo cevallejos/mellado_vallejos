@@ -44,16 +44,6 @@ h2{
     line-height: 0.8;
 }
 
-@media screen and (max-width: 768px){
-    h1{ font-size:2.25rem; }
-    h2{ font-size:1.5rem; }
-}
-
-@media screen and (max-width: 576px){
-    h1{ font-size:1.5rem; }
-    h2{ font-size:1rem; }
-}
-
 h3{
     display:none;
 }
@@ -78,7 +68,7 @@ a:hover[href^="mailto:"]{
 
 header{
     width:50%;
-    top:80%;
+    top:78%;
     left: 2%;
     /*padding-left: 50%;*/
     position: absolute;
@@ -90,8 +80,9 @@ header{
 }
 
 video{
-
-    height: 620px;
+    /*width: 1366px;
+    height: 620px;*/
+    width: 100%;
 
     /*padding:1% 1% .75% 1%;*/
 
@@ -172,11 +163,11 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(1){
     position: absolute;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 70%;
     padding-right: 17%;
     background-color:#9c27b0;
-    background-image:url('media/integrante-1a.png');
+    background-image:url('https://cevallejos.github.io/mellado_vallejos/media/integrante-1a.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
@@ -189,7 +180,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     margin-left: 70%;
     padding-right: 17%;
     background:#039be5;
-    background-image:url('media/integrante-2a.png');
+    background-image:url('https://cevallejos.github.io/mellado_vallejos/media/integrante-2a.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
@@ -197,7 +188,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(1):hover{
     background-color:#212121;
-    background-image:url('media/integrante-1b.png');
+    background-image:url('https://cevallejos.github.io/mellado_vallejos/media/integrante-1b.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
@@ -205,10 +196,52 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(2):hover{
     background-color:#212121;
-    background-image:url('media/integrante-2b.png');
+    background-image:url('https://cevallejos.github.io/mellado_vallejos/media/integrante-2b.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
+}
+
+/* cambio de tamaño de la pagina*/
+
+@media screen and (max-width: 768px){
+    h1{ font-size:2.25rem; }
+    h2{ font-size:1.5rem; }
+
+    header {
+      top: 60%;
+    }
+
+    .integrante:nth-of-type(1){
+        position: inherit;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding-right: 0%;
+    }
+    .integrante:nth-of-type(2){
+        position: inherit;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    h1{ font-size:1.5rem; }
+    h2{ font-size:1rem; }
+
+    .integrante:nth-of-type(1){
+        position: relative;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding-right: 0%;
+    }
+    .integrante:nth-of-type(2){
+        position: relative;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding-top: 0%;
+    }
 }
 
 /*
@@ -231,23 +264,6 @@ AHORA VAMOS POR PORTAFOLIO
     /*box-shadow:0 0 5px rgba(0,0,0,.5);*/
   }
 
-
-@media screen and (max-width: 768px){
-    .item{
-        width:48%;
-        margin:1%;
-        background:#333;
-        color:#eee;
-    }
-}
- @media screen and (max-width: 576px){
-     .item{
-         width:96%;
-         margin:2%;
-         background:#000;
-         color:#FFF;
-    }
-}
  .item:hover{
      cursor:cell;
      background: #fff1ff; /* como feedback */
@@ -280,7 +296,7 @@ AHORA VAMOS POR PORTAFOLIO
 
 .item h5{
     font-family:'Roboto Slab', serif;
-    color: #4a148c;
+    color: #e040fb;
     font-weight: 700;
     font-size:0.7em;
     letter-spacing:0.025em;
@@ -289,15 +305,64 @@ AHORA VAMOS POR PORTAFOLIO
 
  .item p{
      font-family: 'Roboto Mono', monospace;
-     color: #01579b;
+     color: #7986cb;
      font-size:0.75em;
      letter-spacing:0.01em;
      margin:2% 5% 6% 5%;
 }
 
+
 ::selection {
     background-color: #222;
     color: white;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .item{
+        width:48%;
+        margin:1%;
+        background:#424242;
+        color:#000;
+    }
+    .item p{
+      color: #fff;
+    }
+    .item h4 {
+      color: #FFF;
+    }
+    .item:hover{
+      background: #9c27b0;
+    }
+    .item a{
+      color: #d1c4e9;
+    }
+}
+
+
+ @media screen and (max-width: 576px){
+     .item{
+         width:96%;
+         margin:2%;
+         background:#000;
+    }
+
+    .item h5{
+      color:#1565c0;
+    }
+
+    .item p{
+      color: #FFFFFF;
+    }
+
+    .item:hover{
+      background: #039be5;
+    }
+
+    .item a{
+      color: #fff;
+    }
 }
 
  footer{
