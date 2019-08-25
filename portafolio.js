@@ -43,7 +43,7 @@ var trabajos = [
 {
   figure: "media/trabajo-06-comic.jpg",
   alt: "Viñeta con título Vacaciones de Invierno @elablut. La escena es de una niña bostezando mientras estira las ropas de la cama. En la parte superior sale una burbuja de diálogo que dice: por fin terminó el semestre. En la parte inferior izquierda aparece un recuadro en el que se lee: 5 de julio.",
-  title: "Título de primer trabajo",
+  title: "Cómic para diario Visión UC",
   about: "La serie de cómics mensuales para el diario Visión trata sobre situaciones cotidianas de los estudiantes relacionadas a eventos que ocurren de acuerdo al mes de su respectiva publicación.",
   by: "by: cata"
 },
@@ -51,7 +51,7 @@ var trabajos = [
 {
   figure: "media/trabajo-07-concurso.jpg",
   alt: "Ilustración de dos jóvenes coreanos abrazándose por la espalda mientras sonríen. El de la izquierda representa a Corea del Sur y el de la derecha a Corea del Norte. En el fondo luce una bandera blanca con el territorio geográfico coreano.",
-  title: "Título de segundo trabajo",
+  title: "Ilustración concurso",
   about: "Ilustración para concurso de “Talk Talk Korea 2018”. El tema era la paz en Corea, donde se usó como referencia eventos deportivos donde Corea del Norte y del Sur participaron juntos.",
   by: "by: cata"
 },
@@ -59,7 +59,7 @@ var trabajos = [
 {
   figure: "media/trabajo-08-camile.jpg",
   alt: "Personaje femenino en fondo blanco cayendo de espaldas. Tiene características zoomorfas como pelo, cola, orejas y patas.",
-  title: "Título de tercer trabajo",
+  title: "Camile",
   about: "Ilustración de Camile, un personaje femenino de un cómic personal que se encuentra en proceso de redacción del guión para luego ilustrar las escenas de la historia.",
   by: "by: cata"
 },
@@ -67,7 +67,7 @@ var trabajos = [
 {
   figure: "media/trabajo-09-day6.jpg",
   alt: "Ilustración de una película fotográfico con cinco jóvenes coreanos abrazándose y sonriéndo. En la parte inferior se lee: Day6 - Man in a movie.",
-  title: "Título de cuarto trabajo",
+  title: "Ilustración Day6",
   about: "Fondo de los miembros de la banda surcoreana “Day6” ilustrada para un mapa del juego online “osu!”. La canción mapeada fue “Man in a movie” de la misma banda por el jugador iYiyo.",
   by: "by: cata"
 },
@@ -75,7 +75,7 @@ var trabajos = [
 {
     figure: "media/trabajo-10-pandarojo.jpg",
     alt: "Panda Rojo de costado parado en puente tejido con mangueras de bombero.",
-    title: "Enriquecimiento ambiental Panda Rojo",
+    title: "Enriquecimiento Panda Rojo",
     about: "Sistema de enriquecimiento ambiental conformado por puentes tejidos y una plataforma. Todos los materiales utilizados son reciclados. Diseñado para la clase de Taller Interacción.",
     by: "by: cata y paula"
 },
