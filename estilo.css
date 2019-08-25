@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&display=swap&subset=latin-ext');
 
@@ -64,16 +62,18 @@ h5, h6{
     font-weight:700;
 }
 
-a{
+a[href^="mailto:"]{
     color:rgb(0,0,200);
     text-decoration:none;
-    font-weight: 700;
-    font-size: 0.7rem;
+    z-index:9;
+    position: absolute;
 }
 
-a:hover{
+a:hover[href^="mailto:"]{
     color:rgb(0,0,255);
     text-decoration:underline;
+    z-index:9;
+    position: absolute;
 }
 
 header{
@@ -82,7 +82,6 @@ header{
     left: 2%;
     /*padding-left: 50%;*/
     position: absolute;
-    text-align: absolute;
     z-index:9;
 }
 
@@ -91,8 +90,9 @@ header{
 }
 
 video{
-    /*width: 1024px;*/
-    height: 625px;
+
+    height: 620px;
+
     /*padding:1% 1% .75% 1%;*/
 
 }
@@ -115,11 +115,11 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     font-size: 0.7rem;
 }
 
-#equipo a{
+#equipo a[href^="mailto:"]{
     color:rgba(255,255,255,.7);
 }
 
-#equipo a:hover{
+#equipo a:hover[href^="mailto:"]{
     color:rgba(255,255,255,.9);
 }
 
@@ -128,7 +128,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:hover {
-    cursor:crosshair;
+    cursor:cell;
 }
 
 @media screen and (orientation: landscape){
@@ -171,13 +171,12 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1){
-
     position: absolute;
     margin-top: 15px;
     margin-left: 70%;
     padding-right: 17%;
     background-color:#9c27b0;
-    background-image:url('media/integrante-1b.png');
+    background-image:url('media/integrante-1a.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
@@ -185,20 +184,19 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 
 .integrante:nth-of-type(2){
-
     position: absolute;
     margin-top: 313px;
     margin-left: 70%;
     padding-right: 17%;
     background:#039be5;
-    background-image:url('media/integrante-2b.png');
+    background-image:url('media/integrante-2a.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(1):hover{
-    background-color:#d05ce3;
+    background-color:#212121;
     background-image:url('media/integrante-1b.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -206,7 +204,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(2):hover{
-    background-color:#63ccff;
+    background-color:#212121;
     background-image:url('media/integrante-2b.png');
     background-position: bottom right;
     background-size:auto 90%;
@@ -233,11 +231,6 @@ AHORA VAMOS POR PORTAFOLIO
     /*box-shadow:0 0 5px rgba(0,0,0,.5);*/
   }
 
-.item.1 {
-  background:#212121;
-
-}
-
 
 @media screen and (max-width: 768px){
     .item{
@@ -256,7 +249,8 @@ AHORA VAMOS POR PORTAFOLIO
     }
 }
  .item:hover{
-     cursor:crosshair;
+     cursor:cell;
+     background: #fff1ff; /* como feedback */
 }
  .item figure{
      overflow:hidden;
@@ -266,6 +260,7 @@ AHORA VAMOS POR PORTAFOLIO
      height:auto;
      margin-bottom:-4px;
      filter: grayscale(1);
+
 }
 .item:hover figure img{
      /*transform:scale(2);*/
@@ -299,6 +294,12 @@ AHORA VAMOS POR PORTAFOLIO
      letter-spacing:0.01em;
      margin:2% 5% 6% 5%;
 }
+
+::selection {
+    background-color: #222;
+    color: white;
+}
+
  footer{
      width:100%;
      padding:2.5em 0 2em 0;
