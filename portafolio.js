@@ -1,7 +1,7 @@
 var trabajos = [
 
   {
-      figure: "media/trabajo-06-textil.jpg",
+      figure: "media/trabajo-01-bslide.jpg",
       alt: "Descripción de la imagen",
       title: "Título de sexto trabajo",
       about: "Texto simulado de descripción de sexto trabajo",
@@ -9,7 +9,7 @@ var trabajos = [
   },
 
   {
-      figure: "media/trabajo-07-materiales.jpg",
+      figure: "media/trabajo-02-bioef.jpg",
       alt: "Descripción de la imagen",
       title: "Título de séptimo trabajo",
       about: "Texto simulado de descripción de séptimo trabajo",
@@ -17,7 +17,7 @@ var trabajos = [
   },
 
   {
-      figure: "media/trabajo-05-artesania.jpg",
+      figure: "media/trabajo-03-cesfam.jpg",
       alt: "Descripción de la imagen",
       title: "Título de séptimo trabajo",
       about: "Texto simulado de descripción de séptimo trabajo",
@@ -25,7 +25,7 @@ var trabajos = [
   },
 
   {
-      figure: "media/trabajo-07-materiales.jpg",
+      figure: "media/trabajo-04-golos.jpg",
       alt: "Descripción de la imagen",
       title: "Título de séptimo trabajo",
       about: "Texto simulado de descripción de séptimo trabajo",
@@ -33,7 +33,7 @@ var trabajos = [
   },
 
 {
-    figure: "media/trabajo-07-materiales.jpg",
+    figure: "media/trabajo-05-propio.jpg",
     alt: "Descripción de la imagen",
     title: "Título de quinto trabajo",
     about: "Texto simulado de descripción de quinto trabajo",
@@ -41,7 +41,7 @@ var trabajos = [
 },
 
 {
-  figure: "media/trabajo-01-desfile.jpg",
+  figure: "media/trabajo-06-comic.jpg",
   alt: "Descripción de la imagen",
   title: "Título de primer trabajo",
   about: "Texto simulado de descripción de primer trabajo",
@@ -49,7 +49,7 @@ var trabajos = [
 },
 
 {
-  figure: "media/trabajo-02-app.jpg",
+  figure: "media/trabajo-07-concurso.jpg",
   alt: "Descripción de la imagen",
   title: "Título de segundo trabajo",
   about: "Texto simulado de descripción de segundo trabajo",
@@ -57,7 +57,7 @@ var trabajos = [
 },
 
 {
-  figure: "media/trabajo-03-homy.jpg",
+  figure: "media/trabajo-08-camile.jpg",
   alt: "Descripción de la imagen",
   title: "Título de tercer trabajo",
   about: "Texto simulado de descripción de tercer trabajo",
@@ -65,7 +65,7 @@ var trabajos = [
 },
 
 {
-  figure: "media/trabajo-04-editorial.jpg",
+  figure: "media/trabajo-09-day6.jpg",
   alt: "Descripción de la imagen",
   title: "Título de cuarto trabajo",
   about: "Texto simulado de descripción de cuarto trabajo",
@@ -73,7 +73,7 @@ var trabajos = [
 },
 
 {
-    figure: "media/trabajo-07-materiales.jpg",
+    figure: "media/trabajo-10-pandarojo.jpg",
     alt: "Descripción de la imagen",
     title: "Título de séptimo trabajo",
     about: "Texto simulado de descripción de séptimo trabajo",
