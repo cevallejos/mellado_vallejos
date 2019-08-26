@@ -68,7 +68,7 @@ a:hover[href^="mailto:"]{
 
 header{
     width:50%;
-    top:78%;
+    top:38%;
     left: 2%;
     /*padding-left: 50%;*/
     position: absolute;
@@ -163,7 +163,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(1){
     position: absolute;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 70%;
     padding-right: 17%;
     background-color:#9c27b0;
@@ -176,7 +176,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(2){
     position: absolute;
-    margin-top: 313px;
+    margin-top: 307px;
     margin-left: 70%;
     padding-right: 17%;
     background:#039be5;
@@ -189,17 +189,11 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 .integrante:nth-of-type(1):hover{
     background-color:#212121;
     background-image:url('https://cevallejos.github.io/mellado_vallejos/media/integrante-1b.png');
-    background-position: bottom right;
-    background-size:auto 90%;
-    background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(2):hover{
     background-color:#212121;
     background-image:url('https://cevallejos.github.io/mellado_vallejos/media/integrante-2b.png');
-    background-position: bottom right;
-    background-size:auto 90%;
-    background-repeat: no-repeat;
 }
 
 /* cambio de tamaño de la pagina*/
@@ -332,6 +326,10 @@ AHORA VAMOS POR PORTAFOLIO
     .item h4 {
       color: #FFF;
     }
+
+    .item h5{
+      color: #212121;
+    }
     .item:hover{
       background: #9c27b0;
     }
@@ -349,7 +347,7 @@ AHORA VAMOS POR PORTAFOLIO
     }
 
     .item h5{
-      color:#1565c0;
+      color:#37474f;
     }
 
     .item p{
