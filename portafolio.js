@@ -13,7 +13,7 @@ var trabajos = [
       figure: "https://cevallejos.github.io/mellado_vallejos/media/trabajo-02-bioef.jpg",
       alt: "Envases tubulares naranjo (desinfectante) y calipso (limpiador) con apertura en la parte superior frontal y el logo de Virutex en cada uno.",
       title: "Bioef",
-      about: "Limpiador y/o desinfectante bioefervescente en formato de pastilla, amigable con el medioambiente. Fue diseñado para la clase de Taller Calidad I en relación al desafío Virutex-Ilko.",
+      about: "Limpiador y/o desinfectante bioefervescente en formato de pastilla, amigable con el medio ambiente. Fue diseñado para la clase de Taller Calidad I en relación al desafío Virutex-Ilko.",
       by: "by: paula",
       url: "https://www.instagram.com/p/B1mbadjgui1/"
   },
